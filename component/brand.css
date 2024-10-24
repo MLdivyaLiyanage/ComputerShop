@@ -1,0 +1,24 @@
+/* Brand.css */
+.custom-navbar {
+    position: fixed; /* Fixes the navbar to the top */
+    top: 0; /* Aligns it to the top */
+    width: 100%; /* Makes it full width */
+    z-index: 1000; /* Ensures it stays on top of other elements */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow */
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center; /* Centers the brand vertically */
+  }
+  
+  .brand-logo {
+    margin-right: 10px; /* Adds space between the image and text */
+  }
+  
+  .custom-navbar .brand {
+    font-size: 1.5rem; /* Increases font size */
+    font-weight: bold; /* Makes the text bold */
+    color: #333; /* Changes the color */
+  }
+  

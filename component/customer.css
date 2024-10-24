@@ -1,0 +1,140 @@
+/* Background video container styling */
+.background-video-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* Background video styling */
+#background-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Main container styling */
+.main-container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    z-index: 1; /* Place it above the video */
+    background: rgba(200, 221, 226, 0.692); /* Semi-transparent background */
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+/* Form container styling */
+.customer-form-container {
+    width: 45%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #c2dee9;
+    font-style: oblique;
+}
+
+/* Form header styling */
+.form-header {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form group styling */
+.form-group {
+    margin-bottom: 15px;
+}
+
+/* Form group label styling */
+.form-group label {
+    display: block;
+    font-size: 1em;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+/* Form group input styling */
+.form-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Button group styling */
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+    justify-content: center;
+}
+
+/* Button styling */
+.button-group button {
+    padding: 10px 15px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button-group button:hover {
+    background-color: #0056b3;
+}
+
+/* Customer details container styling */
+.customer-details-container {
+    width: 50%;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Customer table styling */
+.customer-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+/* Customer table header styling */
+.customer-table th,
+.customer-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+    font-size: 0.9em;
+}
+
+/* Customer table header background color */
+.customer-table th {
+    background-color: #f2f2f2;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .main-container {
+        flex-direction: column;
+    }
+
+    .customer-form-container,
+    .customer-details-container {
+        width: 100%;
+    }
+}

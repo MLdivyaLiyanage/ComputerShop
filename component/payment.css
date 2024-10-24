@@ -1,0 +1,98 @@
+/* Ensure the container takes up the full viewport height */
+.main-container {
+    display: flex;
+    height: 100vh;
+    background-color: #f0f2f5;
+    background-image: url('https://unsplash.com/photos/black-laptop-computer-turned-on-with-blue-lights-8TzHYjGhzOw'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+.payment-form-container {
+    flex: 1;
+    background-color: rgba(180, 243, 233, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    border-right: 1px solid #dee2e6;
+    height: 100%;
+    overflow-y: auto;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+.payment-form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-header {
+    margin-bottom: 20px;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.button-group {
+    margin-top: 20px;
+}
+
+.button-group button {
+    margin-right: 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+}
+
+.button-group button:hover {
+    background-color: #0056b3;
+}
+
+/* Optional: Style the form inputs */
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+/* Payment Details Grid Styling */
+.payment-details-container {
+    flex: 2;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+    padding: 20px;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.payment-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.payment-table th,
+.payment-table td {
+    border: 1px solid #dee2e6;
+    padding: 8px;
+    text-align: left;
+}
+
+.payment-table th {
+    background-color: #f8f9fa;
+}

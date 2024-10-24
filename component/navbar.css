@@ -1,0 +1,33 @@
+/* Navigation bar custom styles */
+.navigation-bar {
+  padding: 10px;
+  background-color: #f8f9fa; /* Light grey background */
+  border-bottom: 1px solid #dee2e6; /* Border for the bottom */
+}
+
+/* Styling for Nav Items */
+.navigation-bar .nav-link {
+  color: #007bff; /* Default link color */
+  font-size: 16px; /* Font size for links */
+}
+
+.navigation-bar .nav-link:hover {
+  color: #0056b3; /* Link color on hover */
+}
+
+/* DR COMPUTER HOUSE text styling */
+.dr-computer-house {
+  margin-left: auto; /* Push this item to the right */
+}
+
+.dr-computer-house .nav-link {
+  font-size: 18px; /* Font size for the text */
+  font-weight: bold; /* Bold font */
+  color: #333; /* Dark grey color */
+  cursor: default; /* Default cursor */
+  text-align: right; /* Align text to the right */
+}
+
+.dr-computer-house .nav-link:hover {
+  color: #333; /* Keep color the same on hover */
+}

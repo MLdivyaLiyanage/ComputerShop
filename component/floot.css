@@ -1,0 +1,76 @@
+/* floot.css */
+
+/* General footer styling */
+.mdb-footer {
+  background-color: #f8f9fa; /* Light background color */
+  color: #6c757d; /* Muted text color */
+  padding-top: 20px; /* Padding at the top of the footer */
+  border-top: 1px solid #e9ecef; /* Light border at the top */
+}
+
+/* Social media icons and links */
+.mdb-footer a {
+  color: #6c757d; /* Default color for links */
+  transition: color 0.3s ease; /* Smooth color transition */
+}
+
+.mdb-footer a:hover {
+  color: #495057; /* Darker color on hover */
+}
+
+/* Section title */
+.mdb-footer .text-uppercase {
+  font-size: 1rem; /* Standard font size */
+  font-weight: bold; /* Bold text */
+  color: #343a40; /* Darker color */
+}
+
+/* Contact and description text */
+.mdb-footer p {
+  font-size: 0.9rem; /* Slightly smaller font size */
+  margin-bottom: 0.5rem; /* Margin below each paragraph */
+}
+
+/* Adjusting padding for small screens */
+@media (max-width: 576px) {
+  .mdb-footer {
+    text-align: center; /* Center-align text on small screens */
+  }
+
+  .mdb-footer .me-5 {
+    margin-bottom: 1rem; /* Margin below the social media section */
+  }
+}
+
+/* Styling for social media icons */
+.mdb-footer .me-4 {
+  margin-right: 1rem; /* Right margin for spacing */
+}
+
+.mdb-footer .me-4 .fab {
+  font-size: 1.25rem; /* Larger icons */
+}
+
+/* Bottom copyright section */
+.mdb-footer .text-center.p-4 {
+  background-color: rgba(0, 0, 0, 0.05); /* Light grey background */
+  color: #6c757d; /* Muted text color */
+}
+
+/* Company name and links hover effects */
+.mdb-footer .fw-bold {
+  color: #007bff; /* Blue color for bold text */
+}
+
+.mdb-footer .fw-bold:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: none; /* Remove underline on hover */
+}
+
+/* Responsive adjustments for larger screens */
+@media (min-width: 992px) {
+  .mdb-footer .text-md-start {
+    text-align: left; /* Align text to the left on larger screens */
+  }
+}
+

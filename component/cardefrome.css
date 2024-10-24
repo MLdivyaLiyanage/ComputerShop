@@ -1,0 +1,30 @@
+.card-container {
+    display: flex;
+    justify-content: flex-start; /* Aligns the card to the left */
+    padding: 20px; /* Optional: Adjust padding as needed */
+}
+
+.custom-card {
+    width: 18rem; /* Adjust width as needed */
+    margin: 0; /* Ensures no additional margin is added */
+}
+
+/* Additional styles for card image */
+.custom-card .bg-image {
+    position: relative;
+}
+
+/* Adjusted mask positioning */
+.custom-card .mask {
+    position: absolute;
+    top: 0; /* Aligns the mask to the top of the image */
+    left: 0; /* Aligns the mask to the left of the image */
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.custom-card .bg-image:hover .mask {
+    opacity: 1;
+}
