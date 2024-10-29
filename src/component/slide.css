@@ -1,0 +1,52 @@
+/* Container for the carousel */
+.carousel-container {
+  width: 100%;
+  max-width: 1200px; /* Maximum width of the carousel */
+  margin: 0 auto; /* Center the carousel horizontally */
+  padding: 20px; /* Add some padding around the carousel */
+}
+
+/* Carousel items */
+.carousel-item img {
+  width: 100%; /* Ensure the image takes full width of the carousel */
+  height: 500px; /* Adjust height as needed */
+  object-fit: cover; /* Cover the container while preserving aspect ratio */
+}
+
+/* Styling for the carousel captions */
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+  color: #fff; /* White text color */
+  padding: 10px; /* Padding inside the caption */
+  border-radius: 5px; /* Rounded corners for the caption */
+  bottom: 20px; /* Position caption a bit above the bottom */
+  left: 0;
+  right: 0; /* Full-width caption */
+  text-align: center; /* Center-align text in the caption */
+}
+
+/* Styling for caption headings */
+.carousel-caption h3 {
+  font-size: 2rem; /* Font size for the heading */
+  margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Styling for caption paragraphs */
+.carousel-caption p {
+  font-size: 1.25rem; /* Font size for the paragraph */
+}
+
+/* Optional: Add some space between carousel items */
+.carousel-item {
+  margin-bottom: 20px;
+}
+
+/* Optional: Control carousel control button styles */
+.carousel-control-prev, .carousel-control-next {
+  filter: invert(100%); /* Invert colors for better visibility on dark backgrounds */
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background for icons */
+  border-radius: 50%; /* Circular buttons */
+}
